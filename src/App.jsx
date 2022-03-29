@@ -8,9 +8,9 @@ function App() {
       <h1 className="heading">اساتید دوره</h1>
       <div className="designers">
         {
-          desingers.map((element) => {
+          desingers.map((element,index) => {
             return(
-              <Designer name={element.name} image={element.image} meta={element.meta} description={element.description} /> 
+              <Designer key={index} name={element.name} image={element.image} meta={element.meta} description={element.description} /> 
             )
           })
         }
