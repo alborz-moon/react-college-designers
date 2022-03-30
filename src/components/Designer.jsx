@@ -1,8 +1,6 @@
 function Designer({ name, image, meta, description }) {
   return (
     <div className="designer">
-      {
-        <>
           <img className="image" src={image} alt="" />
           <div className="content">
             <h4 className="name">
@@ -15,8 +13,6 @@ function Designer({ name, image, meta, description }) {
               {description}
             </p>
           </div>
-        </>
-        }
     </div>
   )
 }

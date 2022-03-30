@@ -13,7 +13,7 @@ function App() {
               <Designer key={index} name={element.name} image={element.image} meta={element.meta} description={element.description} /> 
             )
           })
-        }
+        };
       </div>
     </div>
   )
